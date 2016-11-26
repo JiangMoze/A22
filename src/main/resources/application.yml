@@ -1,0 +1,7 @@
+spring:
+    freemarker:
+      suffix: .ftl
+      templateEncoding: UTF-8
+      templateLoaderPath: classpath:/templates/
+    profiles:
+      active: msg
